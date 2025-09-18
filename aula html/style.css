@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 20px;
+    color: #1f1e1e;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: normal;
+    color: #2e2d2d;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+thead th {
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Cores dos cabeçalhos e suas bordas */
+th.period {
+    background-color: #f7f7f7;
+    color: #0a0a0a;
+    border-top: 2px solid #bbbbbb; 
+}
+
+th.android {
+    background-color: #e1f3c3;
+    color: #131212;
+    border-top: 2px solid #4C9F2D; 
+}
+
+th.ios {
+    background-color: #c6d7f1;
+    color: #131212;
+    border-top: 2px solid #5E84C7; 
+}
+
+th.windows {
+    background-color: #ded6ee;
+    color: #131212;
+    border-top: 2px solid #7A4B85; 
+}
+
+th.others {
+    background-color: #F7DBC1;
+    color: #131212;
+    border-top: 2px solid #bd905b;
+}
+
+/* Cores das células de dados */
+td {
+    color: #555;
+}
+
+
+table, .source {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.source {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 10px;
+}
+tbody{
+    background-color: #f0f0f0;
+}
