@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ebebeb;
     margin: 0;
-    padding: 20px;
+    padding: 2px;
     color: #1f1e1e;
 }
 
@@ -37,13 +37,13 @@ table {
 th, td {
     padding: 10px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 2px solid #ffffff;
 }
 
 thead th {
     color: white;
     font-weight: bold;
-    border: none;
+    border: ;
     border-bottom: 2px solid #ddd;
 }
 
@@ -83,6 +83,10 @@ td {
     color: #555;
 }
 
+/* Comando adicionado para deixar a primeira coluna em negrito */
+tbody tr td:first-child {
+  font-weight: bold;
+}
 
 table, .source {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
